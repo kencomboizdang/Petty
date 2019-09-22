@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="621dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/circle_main"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-213dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-110dp">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity=""
+            app:srcCompat="@mipmap/logo_white_petty" />
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
